@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="65773" started-at="2019-11-05T02:03:29Z" finished-at="2019-11-05T02:04:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="65773" started-at="2019-11-05T02:03:29Z" finished-at="2019-11-05T02:04:35Z">
+      <class name="test.LandingTest">
+        <test-method status="PASS" signature="bfTest()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="bfTest" is-config="true" duration-ms="16409" started-at="2019-11-05T02:03:29Z" finished-at="2019-11-05T02:03:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfTest -->
+        <test-method status="PASS" signature="validateButton()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="validateButton" duration-ms="3646" started-at="2019-11-05T02:03:45Z" finished-at="2019-11-05T02:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateButton -->
+        <test-method status="PASS" signature="validateFrom()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="validateFrom" duration-ms="8264" started-at="2019-11-05T02:03:49Z" depends-on-methods="test.LandingTest.validateButton" finished-at="2019-11-05T02:03:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateFrom -->
+        <test-method status="PASS" signature="validateTo()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="validateTo" duration-ms="3187" started-at="2019-11-05T02:03:57Z" depends-on-methods="test.LandingTest.validateFrom" finished-at="2019-11-05T02:04:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTo -->
+        <test-method status="PASS" signature="validateDepartindDate()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="validateDepartindDate" duration-ms="7869" started-at="2019-11-05T02:04:01Z" depends-on-methods="test.LandingTest.validateTo" finished-at="2019-11-05T02:04:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDepartindDate -->
+        <test-method status="PASS" signature="validateReturnDate()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="validateReturnDate" duration-ms="8049" started-at="2019-11-05T02:04:08Z" depends-on-methods="test.LandingTest.validateDepartindDate" finished-at="2019-11-05T02:04:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateReturnDate -->
+        <test-method status="PASS" signature="validateTravelInfo()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="validateTravelInfo" duration-ms="6827" started-at="2019-11-05T02:04:17Z" depends-on-methods="test.LandingTest.validateReturnDate" finished-at="2019-11-05T02:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTravelInfo -->
+        <test-method status="PASS" signature="validateSerch()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="validateSerch" duration-ms="8185" started-at="2019-11-05T02:04:23Z" depends-on-methods="test.LandingTest.validateTravelInfo" finished-at="2019-11-05T02:04:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSerch -->
+        <test-method status="PASS" signature="validatePriceList()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="validatePriceList" duration-ms="1027" started-at="2019-11-05T02:04:32Z" depends-on-methods="test.LandingTest.validateSerch" finished-at="2019-11-05T02:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePriceList -->
+        <test-method status="PASS" signature="afTest()[pri:0, instance:test.LandingTest@4dfa3a9d]" name="afTest" is-config="true" duration-ms="2192" started-at="2019-11-05T02:04:33Z" finished-at="2019-11-05T02:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afTest -->
+      </class> <!-- test.LandingTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
